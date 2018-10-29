@@ -6,7 +6,7 @@ protocol ___VARIABLE_productName:identifier___CollectionViewModelProtocol {
     
 }
 
-class ___FILEBASENAMEASIDENTIFIER___: BaseCollectionViewCell {
+class ___FILEBASENAMEASIDENTIFIER___: BaseCollectionViewCell, BaseCollectionViewCellProtocol {
     
     private var viewModel: ___VARIABLE_productName:identifier___CollectionViewModelProtocol?
     

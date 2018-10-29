@@ -10,7 +10,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ListSectionController {
         guard let context = collectionContext else { return .zero }
         
         let width = context.containerSize.width
-        let height = ___VARIABLE_productName:identifier___CollectionViewCell.heightFor(viewModel: viewModel, width: width)
+        let height = ___VARIABLE_productName:identifier___CollectionViewCell.heightFor(type: ___VARIABLE_productName:identifier___CollectionViewCell.self, viewModel: viewModel, width: width)
         
         return CGSize(width: width, height: height)
     }
