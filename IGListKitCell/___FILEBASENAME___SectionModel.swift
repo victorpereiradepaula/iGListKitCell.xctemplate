@@ -1,6 +1,8 @@
 //  ___FILEHEADER___
 
 import UIKit
+import RxSwift
+import RxCocoa
 
 protocol ___FILEBASENAMEASIDENTIFIER___Protocol: class {
     
