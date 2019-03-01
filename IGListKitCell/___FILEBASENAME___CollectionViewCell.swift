@@ -8,7 +8,7 @@ protocol ___VARIABLE_productName:identifier___CollectionViewModelProtocol {
     
 }
 
-class ___FILEBASENAMEASIDENTIFIER___: BaseCollectionViewCell, BaseCollectionViewCellProtocol {
+class ___FILEBASENAMEASIDENTIFIER___: BaseCollectionViewCell {
     
     private var viewModel: ___VARIABLE_productName:identifier___CollectionViewModelProtocol?
     
@@ -20,5 +20,14 @@ class ___FILEBASENAMEASIDENTIFIER___: BaseCollectionViewCell, BaseCollectionView
         viewModelDisposeBag = DisposeBag()
 
         self.viewModel = viewModel
+    }
+}
+
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    
+    static func heightFor(viewModel: ___VARIABLE_productName:identifier___CollectionViewModelProtocol, width: CGFloat) -> CGFloat {
+        let cell = staticCell as! ___FILEBASENAMEASIDENTIFIER___
+        cell.bindIn(viewModel: viewModel)
+        return cell.heightForWidth(width: width)
     }
 }
