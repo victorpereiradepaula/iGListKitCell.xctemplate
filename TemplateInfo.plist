@@ -34,6 +34,7 @@
 			<key>Values</key>
 			<array>
 				<string>IGListKitCell</string>
+				<string>Monotith IGListKitCell</string>
 			</array>
 		</dict>
 	</array>

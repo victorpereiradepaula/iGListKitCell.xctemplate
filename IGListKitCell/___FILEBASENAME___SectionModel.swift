@@ -5,13 +5,13 @@ import RxSwift
 import RxCocoa
 
 protocol ___FILEBASENAMEASIDENTIFIER___Protocol: class {
-    
+   
 }
 
 class ___FILEBASENAMEASIDENTIFIER___: NSObject, ___VARIABLE_productName:identifier___CollectionViewModelProtocol {
- 
-    init() {
-
-        super.init()
-    }
+   
+   init() {
+      
+      super.init()
+   }
 }
