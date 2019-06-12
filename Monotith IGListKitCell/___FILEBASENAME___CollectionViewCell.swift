@@ -29,12 +29,3 @@ class ___FILEBASENAMEASIDENTIFIER___: BaseCollectionViewCell, BaseCollectionView
       
    }
 }
-
-extension ___FILEBASENAMEASIDENTIFIER___ {
-   
-   static func heightFor(viewModel: ___VARIABLE_productName:identifier___CollectionViewModelProtocol, width: CGFloat) -> CGFloat {
-      let cell = staticCell as! ___FILEBASENAMEASIDENTIFIER___
-      cell.bindIn(viewModel: viewModel)
-      return cell.heightForWidth(width: width)
-   }
-}

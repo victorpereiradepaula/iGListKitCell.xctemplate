@@ -2,7 +2,7 @@
 
 import IGListKit
 
-class ___FILEBASENAMEASIDENTIFIER___: ListSectionController {
+public class ___FILEBASENAMEASIDENTIFIER___: ListSectionController {
    
    private var viewModel: ___VARIABLE_productName:identifier___SectionModel!
    private var cellType = ___VARIABLE_productName:identifier___CollectionViewCell.self
