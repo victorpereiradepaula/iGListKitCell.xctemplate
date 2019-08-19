@@ -20,13 +20,14 @@ class ___FILEBASENAMEASIDENTIFIER___: BaseCollectionViewCell, BaseCollectionView
       applyLayout()
    }
    
+
+   private func applyLayout() {
+      
+   }
+   
    func bindIn(viewModel: ___VARIABLE_productName:identifier___CollectionViewModelProtocol) {
       disposeBag = DisposeBag()
       
       self.viewModel = viewModel
-   }
-
-   private func applyLayout() {
-      
    }
 }
