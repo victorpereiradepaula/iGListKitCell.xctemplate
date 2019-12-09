@@ -2,7 +2,7 @@
 
 import IGListKit
 
-class ___FILEBASENAMEASIDENTIFIER___: ListSectionController {
+final class ___FILEBASENAMEASIDENTIFIER___: ListSectionController {
    
    private var viewModel: ___VARIABLE_productName:identifier___SectionModel!
    
@@ -17,11 +17,11 @@ class ___FILEBASENAMEASIDENTIFIER___: ListSectionController {
    
    override func cellForItem(at index: Int) -> UICollectionViewCell {
       let cell = collectionContext?.dequeueReusableCell(withNibName: ___VARIABLE_productName:identifier___CollectionViewCell.nibName, bundle: nil, for: self, at: index) as! ___VARIABLE_productName:identifier___CollectionViewCell
-      cell.bindIn(viewModel: viewModel)
+      cell.populateWith(viewModel: viewModel)
       return cell
    }
    
    override func didUpdate(to object: Any) {
-      viewModel = (object as! ___VARIABLE_productName:identifier___SectionModel)
+      viewModel = object as? ___VARIABLE_productName:identifier___SectionModel
    }
 }
