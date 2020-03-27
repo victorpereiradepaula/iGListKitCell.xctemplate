@@ -1,6 +1,6 @@
 # IGListKitCell.xctemplate
 
-
+## [Depreciado] ~> [Novos templates](https://github.com/victorpereiradepaula/VTemplates)
 
 ## Configuração
 
